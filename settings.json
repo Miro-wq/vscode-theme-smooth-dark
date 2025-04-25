@@ -1,0 +1,52 @@
+{
+  "window.menuBarVisibility": "classic",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.startupEditor": "welcomePage",
+  "git.enableSmartCommit": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "workbench.iconTheme": "sweet-vscode-icons",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "cody.autocomplete.enabled": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "debug.toolBarLocation": "docked",
+  "redhat.telemetry.enabled": true,
+  "editor.semanticTokenColorCustomizations": {},
+  "workbench.colorCustomizations": {
+    "editorGroup.emptyBackground": "#000000",
+    "editorGroupHeader.noTabsBackground": "#000000",
+    "sideBar.background": "#2A2A2E",
+    "panel.background": "#2A2A2E",
+    "sideBar.border": "#2A2A2E",
+    "panel.border": "#2A2A2E",
+    "editorGroup.border": "#2A2A2E"
+  },
+  "workbench.colorTheme": "Firefox Dark",
+
+  // Custom CSS path – replace with your local path
+  "vscode_custom_css.imports": [
+    "file:///ABSOLUTE/PATH/TO/custom.css"
+  ],
+  "vscode_custom_css.policy": true
+}
