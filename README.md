@@ -51,14 +51,13 @@ You can tweak colors easily inside dark.json or further customize gaps and corne
 ## 🙏 Credits
 
 This custom theme is proudly built on top of the amazing  
-🎨 [Firefox DevTools Theme](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme)  
-created by **Heron Silva**.
+🎨 [Firefox DevTools Theme](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme) created by **Heron Silva**.
 
 Big thanks to Heron for crafting such a clean and well-balanced base theme.  
 My goal was to keep its spirit alive while customizing the spacing, backgrounds, and UI polish to better match my personal workflow and preferences.
 
 🛠 All customizations, spacing tweaks, rounded corners, and visual polish:  
-**Made with care by [Miro]**
+**Made with care by Miro**
 
 
 
