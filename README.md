@@ -1,0 +1,1 @@
+# vscode-theme-smooth-dark
