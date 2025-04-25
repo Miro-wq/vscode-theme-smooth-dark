@@ -1,0 +1,131 @@
+:root {
+  --border-radius: 10px;
+  --spacing: 9px;
+  --spacing-color: #000000;
+}
+
+.monaco-workbench {
+  background-color: var(--spacing-color) !important;
+}
+
+.monaco-workbench .title.tabs {
+  background-color: #2A2A2E !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab {
+  background-color: #2A2A2E !important;
+}
+
+.monaco-workbench .part {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.monaco-sash.vertical {
+  width: 4px !important;
+}
+
+ul.actions-container.highlight-toggled {
+  margin-right: 12px !important;
+}
+
+.part.sidebar,
+.part.auxiliarybar {
+    border-radius: var(--border-radius) !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px !important;
+
+    &.left {
+        margin-top: calc(var(--spacing) * 0) !important;
+        margin-bottom: calc(var(--spacing) * 0) !important;
+        margin-right: calc(var(--spacing) * 1) !important;
+        margin-left: calc(var(--spacing) * 2) !important;
+        width: calc(100% - var(--spacing) * 3) !important;
+    }
+
+    &.right {
+        margin-top: calc(var(--spacing) * 0) !important;
+        margin-bottom: calc(var(--spacing) * 0) !important;
+        margin-right: calc(var(--spacing) * 2) !important;
+        margin-left: calc(var(--spacing) * 1) !important;
+        width: calc(100% - var(--spacing) * 3) !important;
+    }
+
+    * {
+        max-width: 100%;
+    }
+
+    .search-view .search-widgets-container,
+    .search-view .search-widget .replace-container {
+        width: calc(100% - var(--spacing) * 3 - 10px) !important;
+    }
+
+    .monaco-button-dropdown .monaco-button-dropdown-separator {
+        display: none !important;
+    }
+}
+
+.part.editor {
+  margin-top: calc(var(--spacing) * 0) !important;
+  margin-bottom: calc(var(--spacing) * 0) !important;
+  margin-right: calc(var(--spacing) * 1) !important;
+  margin-left: calc(var(--spacing) * 1) !important;
+  width: calc(100% - var(--spacing) * 2) !important;
+  border-radius: var(--border-radius) !important;
+
+  >.content .editor-group-container>.title {
+      width: calc(100% - var(--spacing) * 2) !important;
+
+      .editor-actions {
+          position: unset !important;
+          top: 0 !important;
+      }
+  }
+
+  .scrollbar.vertical {
+      margin-right: var(--spacing);
+  }
+}
+
+.part.panel {
+  border-radius: var(--border-radius) !important;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 5px !important;
+
+  &.bottom {
+      margin-top: calc(var(--spacing) * 2) !important;
+      margin-bottom: calc(var(--spacing) * 0) !important;
+      margin-right: calc(var(--spacing) * 1) !important;
+      margin-left: calc(var(--spacing) * 1) !important;
+      width: calc(100% - var(--spacing) * 2) !important;
+      height: calc(100% - var(--spacing) * 2) !important;
+  }
+
+  &.top {
+      margin-top: calc(var(--spacing) * 0) !important;
+      margin-bottom: calc(var(--spacing) * 2) !important;
+      margin-right: calc(var(--spacing) * 1) !important;
+      margin-left: calc(var(--spacing) * 1) !important;
+      width: calc(100% - var(--spacing) * 2) !important;
+      height: calc(100% - var(--spacing) * 2) !important;
+  }
+
+  .monaco-list-row {
+      max-width: 97% !important;
+  }
+
+  .integrated-terminal .tabs-container {
+      width: calc(100% - var(--spacing) * 2 - 10px) !important;
+  }
+
+  .repl:has(div.repl-tree.monaco-mouse-cursor-text.word-wrap) {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .repl-input-wrapper {
+          position: absolute;
+      }
+  }
+}
