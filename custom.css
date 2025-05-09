@@ -8,6 +8,10 @@
   background-color: var(--spacing-color) !important;
 }
 
+.monaco-workbench .xterm .xterm-scrollable-element {
+    margin-left: -35px;
+}
+
 .monaco-workbench .title.tabs {
   background-color: #2A2A2E !important;
 }
